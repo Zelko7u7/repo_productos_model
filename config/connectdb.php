@@ -1,10 +1,9 @@
 <?php
-// config/connectdb.php
 
-$hostDB = "127.0.0.1";
-$nameDB = "tienda_tecnologica_nueva";
-$userDB = "Zelko";
-$pwDB   = "Zelko1004190181";
+$hostDB = "db";
+$nameDB = "tienda_tecnologia";
+$userDB = "zelko";
+$pwDB   = "zelko123";
 
 try {
     $hostPDO = "mysql:host=$hostDB;dbname=$nameDB;charset=utf8mb4";
